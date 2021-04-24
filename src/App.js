@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './Component/User/User';
+import Home from './Component/Home/Home';
 
 function App() {
   return (
     <div>
-      <h1>This is From react</h1>
+      <Home></Home>
     </div>
   );
 }
